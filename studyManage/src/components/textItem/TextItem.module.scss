@@ -1,0 +1,23 @@
+.textItem {
+   margin-top: 8px;
+   margin-bottom: 8px;
+   .label,
+   .value {
+      padding: 7px 8px;
+      color: #222222;
+      font-size: 0.875rem;
+   }
+   .label {
+      width: 7.5rem;
+      font-weight: 600;
+      line-height: 19px;
+      border-radius: 4px;
+      background-color: #eaeff4;
+   }
+   .value {
+      flex: 1;
+
+      word-break: break-word;
+      line-height: 1.25rem;
+   }
+}

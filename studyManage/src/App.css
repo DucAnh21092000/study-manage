@@ -1,0 +1,8 @@
+.root {
+   background-color: #ffffff;
+   overflow: hidden;
+}
+
+.ant-btn {
+   margin-right: 8px !important;
+}

@@ -1,0 +1,20 @@
+.todoList {
+   .todos {
+      width: 100%;
+   }
+   .todoList__item {
+      display: flex;
+      width: 100%;
+      min-height: 40px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      margin-bottom: 16px;
+      .todoSingleText {
+         width: 100%;
+      }
+      .icon {
+         margin-right: 8px;
+      }
+   }
+}

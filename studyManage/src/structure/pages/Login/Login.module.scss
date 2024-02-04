@@ -1,0 +1,33 @@
+.login {
+   .login__header {
+      .login__headerBorder {
+         background-color: RGB(156 16 16);
+         height: 10px;
+      }
+      .login__headerLayout {
+         background-image: url('../../../assets/image/logo-cttdt.png');
+         height: 100px;
+         width: 560px;
+         background-size: cover;
+         margin: 5px 0 5px 40px;
+         background-clip: content-box;
+      }
+      .login__headerBorderBottom {
+         box-shadow: 1px 3px 3px 3px RGB(156 16 16);
+      }
+   }
+   .login__boby {
+      padding: 34px;
+      .login__bobyLayout {
+         border: 1px solid #ccc;
+         border-radius: 10px;
+         padding: 16px 32px;
+         .login__content {
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+            color: #8c1515;
+         }
+      }
+   }
+}

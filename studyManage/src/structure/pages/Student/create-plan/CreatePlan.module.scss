@@ -1,0 +1,11 @@
+.rootTable {
+   :global {
+      .ant-table-container {
+         overflow: hidden;
+      }
+   }
+}
+
+.form-footer {
+   position: fixed;
+}

@@ -1,0 +1,49 @@
+.defaultLayout {
+   height: 100vh;
+   :global {
+      .ant-layout-header {
+         display: flex;
+         align-items: center;
+         padding: 0 24px !important;
+         justify-content: space-between;
+      }
+      .k-form {
+         width: 100% !important;
+      }
+      .ant-layout > div {
+         overflow-y: auto;
+      }
+      .ant-layout-content {
+         overflow-y: auto;
+         overflow-x: hidden;
+         min-height: calc(100vh - 120px) !important;
+         margin: 0 !important;
+         padding: 0 !important;
+         height: calc(100vh - 64px);
+      }
+      .ant-spin {
+         height: 100vh !important;
+         max-height: 100vh !important;
+      }
+      .go2392553372 {
+         display: flex;
+         justify-content: center;
+      }
+   }
+   .navBar {
+      margin-top: 24px;
+   }
+   .logo {
+      height: 50px;
+      margin-left: 4px;
+      margin-top: 10px;
+   }
+   .header {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #fff;
+      box-shadow: 2px 1px 1px 0px #ccc;
+      height: 64px;
+   }
+}

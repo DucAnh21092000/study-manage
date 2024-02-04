@@ -1,0 +1,13 @@
+.foldCard {
+   display: flex;
+   flex-direction: column;
+   // padding: 20px;
+   .foldCardHeader {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   .foldCardBody {
+      transition: all 10s;
+   }
+}
