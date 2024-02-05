@@ -5,5 +5,11 @@
       "src": "serve.js",
       "use": "@now/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
   ]
 }
