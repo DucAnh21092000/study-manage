@@ -1,4 +1,3 @@
-
 const express = require("express")
 const app = express()
 const port = 2109
@@ -95,6 +94,11 @@ app.route("/api/plan/getCurrentSchedule/:studentId")
 
 app.route("/api/login")
     .post(login)
+
+app.route("/")
+    .get((req, res) => {
+        res.send("Done")
+    })
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 

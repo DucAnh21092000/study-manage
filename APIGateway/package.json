@@ -2,9 +2,10 @@
   "name": "apigateway",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "serve.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon serve.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "express": "^4.18.2",
     "express-formidable": "^1.2.0",
     "fs": "^0.0.1-security",
+    "heroku": "^8.7.1",
     "lodash": "^4.17.21",
     "moment": "^2.30.1",
     "mongodb": "^6.1.0",
